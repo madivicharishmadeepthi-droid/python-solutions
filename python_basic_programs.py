@@ -1,7 +1,4 @@
-# Python Basic Programs
-# Solutions from the uploaded question sheet
-
-# 1. Largest of Three Numbers
+ # 1. Largest of Three Numbers
 a = int(input())
 b = int(input())
 c = int(input())
@@ -65,25 +62,22 @@ while i <= 10:
 
 
 # 7. Pyramid Pattern
+for i in range(1, 5):
+    print(" " * (4 - i) + "*" * (2 * i - 1))
 # Output:
 #    *
 #   ***
 #  *****
 # *******
 
-for i in range(1, 5):
-    print(" " * (4 - i) + "*" * (2 * i - 1))
-
-
 # 8. Number Pattern
+for i in range(1, 6):
+    for j in range(1, i + 1):
+        print(j, end="")
+    print()
 # Output:
 # 1
 # 12
 # 123
 # 1234
 # 12345
-
-for i in range(1, 6):
-    for j in range(1, i + 1):
-        print(j, end="")
-    print()
